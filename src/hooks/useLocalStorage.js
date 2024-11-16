@@ -1,7 +1,3 @@
-
-// localStorage.getItem(key)
-// localStorage.setItem(key, value)
-
 import { useEffect } from "react";
 import { useState } from "react";
 

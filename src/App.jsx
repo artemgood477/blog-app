@@ -6,12 +6,11 @@ import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
 import ViewBlogsPage from './pages/ViewBlogsPage';
 import ViewBlogDetailsPage from './pages/ViewBlogDetailsPage';
-import ViewFavoritesPage from './pages/ViewFavoritesPage';  // <-- Ensure this is imported
+import ViewFavoritesPage from './pages/ViewFavoritesPage'; 
 import Navbar from './components/Navbar';
 import CreateBlog from './components/CreateBlog';
 
 function App() {
-  // React Router Setup
   const routes = useRoutes([
     {
       path: '/',
@@ -34,7 +33,7 @@ function App() {
       element: <ViewBlogDetailsPage />
     },
     {
-      path: '/viewfavorites',  // <-- Ensure this is defined correctly
+      path: '/viewfavorites', 
       element: <ViewFavoritesPage />
     },
     {
@@ -42,7 +41,7 @@ function App() {
       element: <NotFoundPage />
     },
     {
-      path: '/createblog',  // <-- Add this route for CreateBlog
+      path: '/createblog', 
       element: <CreateBlog />
    }
    

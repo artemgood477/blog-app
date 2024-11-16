@@ -1,6 +1,4 @@
 #root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
   padding: 2rem;
   text-align: center;
   width: 90vw;
@@ -43,6 +41,6 @@
 }
 
 input, textarea {
-  background-color: white !important; /* Ensure background color is white */
-  color: black !important; /* Ensure text color is black */
+  background-color: white !important; 
+  color: black !important; 
 }
